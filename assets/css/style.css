@@ -27,6 +27,11 @@ header{
     background-color: lightcoral;
 }
 
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
 /*Main*/
 main{
     background-color: aquamarine;
