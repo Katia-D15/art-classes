@@ -24,17 +24,23 @@ body{
 
 /*Header*/
 header{
-    background-color: rgb(179, 224, 250);
+    background-color: #b3e0fa;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px rgb(88, 111, 124);
+    box-shadow: 0 2px 2px #586f7c;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
 }
 
 h1{
     font-family: 'Roboto', sans-serif;
     font-style: italic;
+    letter-spacing: 2px;
 }
 
 /*Main*/
