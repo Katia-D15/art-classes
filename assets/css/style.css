@@ -135,11 +135,18 @@ footer{
     }
     /*Main*/
     main{
-        /*Push main content down to display in larger header*/
+        /*Present the main content after it has been hidden by expansion of the header*/
         margin-top: 79px;
     }
 }
 
 /*Media query: laptops and larger(992px and up)*/
+@media screen and (min-width:992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #000000;
+
+    }
+    
+}
 
 /*Media query: Desktops and larger(1200px and up)*/
