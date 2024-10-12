@@ -100,7 +100,21 @@ main{
 
 /*Footer*/
 footer{
-    background-color: cornflowerblue;
+    background-color: #a9c1ee;
+}
+
+#social-media{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i{
+    font-size: 155%;
+    padding: 5%;
+    color:#000000;
 }
 
 
