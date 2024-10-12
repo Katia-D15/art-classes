@@ -94,6 +94,7 @@ main{
     background-color: aquamarine;
     /*The main element takes up any extra space to push the footer down*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 
