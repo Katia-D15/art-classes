@@ -55,7 +55,7 @@ header a {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    list-style-type: none;
+    list-style-type:none;
 }
 
 #menu>li {
@@ -101,8 +101,6 @@ main {
     /*The main element takes up any extra space to push the footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
-    /*To auxiliar push aboutus section down*/
-    position: relative;
     /*Enable flex properties for child elements*/
     display:flex;
     flex-direction: column;
@@ -127,11 +125,19 @@ main {
 
 #aboutus{
     background-color: #f5d4d4;
-    height: 200px;
+    height: auto;
     width:100%;
-    position: absolute;
     bottom: 0;
+    padding: 25px;
     
+}
+
+#aboutus >p{
+    text-align: center;
+}
+
+#offers {
+    text-align: center;  
 }
 
 /* Sign up*/
@@ -180,6 +186,11 @@ footer {
     background-color: #ffffff;
     height: 100px;
     width: 100%;
+}
+
+.text-center{
+    text-align: center;
+    padding: 10px;
 }
 
 #social-media {
@@ -251,7 +262,18 @@ footer {
         
         font-size: 17px;
         padding-left: 10px;
+        
     }
+
+    #aboutus{
+        background-color: #f5d4d4;
+        height: auto;
+        width:100%;
+        bottom: 0;
+        padding: 17px;
+        
+    }
+    
 
   
     /*Signup*/
@@ -304,7 +326,6 @@ footer {
     #aboutus{
         background-color: #f5d4d4;
         width:100%;
-        position: absolute;
         bottom: 0;
         
     }
@@ -362,7 +383,6 @@ footer {
         background-color: #f5d4d4;
         height: 250px;
         width:100%;
-        position: absolute;
         bottom: 0;
         
     }
