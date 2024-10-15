@@ -151,8 +151,9 @@ main {
 
 #signup-form{
     color: #000000;
-    background-color: rgb(212, 126, 144,0.6);
+    background-color: rgb(212, 126, 144,0.9);
     padding: 45px;
+    margin: 70px;
     
 }
 
@@ -273,6 +274,17 @@ footer {
         padding: 17px;
         
     }
+
+
+    #contact {
+        background-color: #ffffff;
+        height: 150px;
+        width: 100%;
+    }
+
+    #contact > h2{
+        padding: 15px;
+    }
     
 
   
@@ -285,9 +297,9 @@ footer {
     }
 
     #signup-form{
-        width:25%;
-        left:30%;
-        top:150px;
+        width:40%;
+        left:20%;
+        top:70px;
         position: absolute;
         
     }
@@ -332,7 +344,7 @@ footer {
 
     #contact {
         background-color: #ffffff;
-        height: 100px;
+        height: 160px;
         width: 100%;
     }
 
@@ -343,13 +355,7 @@ footer {
         
     }
 
-    #signup-form{
-        width:25%;
-        left:30%;
-        top:150px;
-        position: absolute;
-        
-    }
+   
 
 }
 
@@ -389,7 +395,7 @@ footer {
 
     #contact {
         background-color: #ffffff;
-        height: 100px;
+        height: 150px;
         width: 100%;
     }
 
@@ -402,9 +408,9 @@ footer {
         }
     
         #signup-form{
-            width:25%;
+            width:30%;
             left:30%;
-            top:150px;
+            top:70px;
             position: absolute;
             
         }
