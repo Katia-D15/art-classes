@@ -130,14 +130,39 @@ main {
     bottom: 0;
     padding: 25px;
     
+    
 }
 
 #aboutus >p{
     text-align: center;
+    
+}
+
+#activity-table{
+    background-color: goldenrod;
+    text-align: center;
+    overflow: auto;
+    
+}
+
+#activity-table > th, td{
+    border: 1px solid black;
+    padding: 10px;
 }
 
 #offers {
-    text-align: center;  
+    background-color: #a9c1ee; 
+    
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:0;
+    margin:0;
+}
+
+#offers > li{
+    display: list-item;
 }
 
 /* Sign up*/
@@ -387,7 +412,6 @@ footer {
 
     #aboutus{
         background-color: #f5d4d4;
-        height: 250px;
         width:100%;
         bottom: 0;
         
