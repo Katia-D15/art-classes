@@ -27,8 +27,8 @@ h1 {
 }
 
 h2{
-    font-size: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 
@@ -142,23 +142,25 @@ main {
     background-color: goldenrod;
     text-align: center;
     overflow: auto;
+    max-width: 402px;
+    margin: auto;
     
 }
 
 #activity-table > th, td{
     border: 1px solid black;
-    padding: 10px;
+    padding: 9px;
 }
 
 #offers {
-    background-color: #a9c1ee; 
-    
+    background-color: #a9c1ee;
     list-style: disc;
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding:0;
-    margin:0;
+    margin:auto;
+    max-width: 705px;
 }
 
 #offers > li{
@@ -178,7 +180,7 @@ main {
     color: #000000;
     background-color: rgb(212, 126, 144,0.9);
     padding: 45px;
-    margin: 70px;
+    margin: 40px;
     
 }
 
@@ -205,18 +207,18 @@ main {
 
 /*Footer*/
 footer {
-    background-color: #a9c1ee;
+    background-color: #ffffff;
 }
 
 #contact {
     background-color: #ffffff;
-    height: 100px;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .text-center{
     text-align: center;
-    padding: 10px;
+    
 }
 
 #social-media {
@@ -237,10 +239,6 @@ footer {
 /*Media query: tablets and larger(768px and up)*/
 @media screen and (min-width:768px) {
 
-    h2{
-        font-size: 30px;
-        text-align: center;
-    }
 
     /*Header*/
     nav {
@@ -296,7 +294,7 @@ footer {
         height: auto;
         width:100%;
         bottom: 0;
-        padding: 17px;
+        
         
     }
 
@@ -333,10 +331,7 @@ footer {
 /*Media query: laptops and larger(992px and up)*/
 @media screen and (min-width:992px) {
 
-    h2{
-        font-size: 40px;
-        text-align: center;
-    }
+   
 
     #menu a:hover {
         border-bottom: 1px solid #000000;
@@ -387,14 +382,11 @@ footer {
 /*Media query: Desktops and larger(1200px and up)*/
 @media screen and (min-width:1200px) {
 
-    h2{
-        font-size: 25px;
-        text-align: center;
-    }
+
 
     #hero {
-        height: 415px;
-        width: 25%;
+        /*height: 415px;*/
+        width: 40%;
         background: url(../images/hero-image.jpg) no-repeat center center/cover;
 
     }
