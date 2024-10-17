@@ -181,6 +181,7 @@ main {
     background-color: rgb(212, 126, 144,0.9);
     padding: 45px;
     margin: 40px;
+    margin-bottom: 5%;
     
 }
 
@@ -294,6 +295,7 @@ footer {
         height: auto;
         width:100%;
         bottom: 0;
+        padding: 10%;
         
         
     }
@@ -310,22 +312,22 @@ footer {
     }
     
 
-  
+ 
+
     /*Signup*/
 
-    #signup{
-        align-items: center;
-        position:relative;
+    #signup-form{
+        color: #000000;
+        background-color: rgb(212, 126, 144,0.9);
+        padding: 45px;
+        margin: 40px;
+        max-width: 45%;
+        margin: auto;
+        margin-bottom: 5%;
         
     }
 
-    #signup-form{
-        width:40%;
-        left:20%;
-        top:70px;
-        position: absolute;
-        
-    }
+  
 }
 
 /*Media query: laptops and larger(992px and up)*/
@@ -359,6 +361,7 @@ footer {
         background-color: #f5d4d4;
         width:100%;
         bottom: 0;
+        padding: 10%;
         
     }
 
@@ -368,12 +371,17 @@ footer {
         width: 100%;
     }
 
-      /*Signup*/
-      #signup{
-        align-items: center;
-        position:relative;
+
+    #signup-form{
+        color: #000000;
+        background-color: rgb(212, 126, 144,0.9);
+        padding: 45px;
+        max-width: 30%;
+        margin: auto;
+        margin-bottom: 5%;
         
     }
+
 
    
 
@@ -406,6 +414,7 @@ footer {
         background-color: #f5d4d4;
         width:100%;
         bottom: 0;
+        padding: 5%;
         
     }
 
@@ -416,19 +425,16 @@ footer {
     }
 
 
-        /*Signup*/
-        #signup{
-            align-items: center;
-            position:relative;
-            
-        }
-    
-        #signup-form{
-            width:30%;
-            left:30%;
-            top:70px;
-            position: absolute;
-            
-        }
+    #signup-form{
+        color: #000000;
+        background-color: rgb(212, 126, 144,0.9);
+        padding: 45px;
+        max-width: 20%;
+        margin: auto;
+        margin-bottom: 5%;
+        
+    }
+
+
 
 }
