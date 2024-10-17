@@ -118,6 +118,7 @@ main {
 #text-center {
     font-size: 17px;
     padding-left: 10px;
+    color: #ffffff;
 
 }
 
@@ -139,7 +140,7 @@ main {
 }
 
 #activity-table{
-    background-color: goldenrod;
+    background-color: #c47c88;
     text-align: center;
     overflow: auto;
     max-width: 402px;
@@ -153,7 +154,6 @@ main {
 }
 
 #offers {
-    background-color: #a9c1ee;
     list-style: disc;
     display: flex;
     flex-direction: column;
@@ -385,7 +385,7 @@ footer {
 
 
     #hero {
-        /*height: 415px;*/
+        height: 415px;
         width: 40%;
         background: url(../images/hero-image.jpeg) no-repeat center center/cover;
 
