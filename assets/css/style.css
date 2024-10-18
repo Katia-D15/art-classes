@@ -149,7 +149,7 @@ main {
 }
 
 #activity-table > th, td{
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 9px;
 }
 
@@ -200,6 +200,10 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 
+}
+
+#reset_button{
+    margin-right: 10px;
 }
 
 
