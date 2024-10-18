@@ -117,7 +117,7 @@ main {
 }
 
 /*Main Title*/
-#text-center {
+#phrase-center {
     font-size: 17px;
     padding-left: 10px;
 }
@@ -221,7 +221,7 @@ footer {
     margin-bottom: 15px;
 }
 
-.text-center{
+#text-center{
     text-align: center;
     
 }
@@ -286,12 +286,7 @@ footer {
 
     }
 
-    /*
-    /*Main Title*/
-    #text-center {
-        font-size: 17px;
-        padding-left: 10px;
-    }
+    
 
     #aboutus{
         background-color: #f5d4d4;
@@ -351,11 +346,6 @@ footer {
 
     }
 
-    /*Main Title*/
-    #text-center {
-        font-size: 17px;
-        padding:10px;
-    }
 
 
 
@@ -412,7 +402,7 @@ footer {
     }   
     
     
-    #text-center {
+    #phrase-center {
         font-size: 20px;
         padding:10px;
         position:absolute;
