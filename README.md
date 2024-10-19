@@ -69,10 +69,10 @@ The site aims to provide users with an onverview of artistic activities, operati
    ### Validator Testing
 
       - HTML
-        - No erros were returned when passing the official ()
+        - No erros were returned when passing the official [W3C HTML Validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkatia-d15.github.io%2Fart-classes%2F)
 
       - CSS
-        - No erros were returned when passing the official ()
+        - No erros were returned when passing the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatia-d15.github.io%2Fart-classes%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR)
 
    ### Unfixed Bugs
 
@@ -88,7 +88,7 @@ The site aims to provide users with an onverview of artistic activities, operati
        - In 'Source' select the branch and the root folder
        - Click on Save
 
-       The live link can be found here ()
+       The live link can be found here (https://katia-d15.github.io/art-classes/)
 
 
 
