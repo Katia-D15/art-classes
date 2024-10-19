@@ -3,6 +3,7 @@
 Art Class is a website aimed at young people and adults interested in learning more about art and discovering their talents in this field.
 The site aims to provide users with an onverview of artistic activities, operating hours, and an easy way to subscribe to a physical art school.
 
+![Website screenshot](/assets/images/website-screenshot.png)
 
 
 
@@ -27,7 +28,7 @@ The site aims to provide users with an onverview of artistic activities, operati
 
    - The landing page includes an appealing image of the target audience of this site, followed by the page title and a slogan animed at encouraging the user to join the site.
    
-
+    ![main screenshot](/assets/images/main-screenshot.png)
 - _About us section_
 
    - The "About us" section presents to the user not only the activities that will be carried out in the art classes but
@@ -35,21 +36,21 @@ The site aims to provide users with an onverview of artistic activities, operati
 
    - This section contains a table in which the days of the week, the school's operating hours, and the respective activity to be carried out on each weekday are organized.
 
-
+     ![About us screenshot](/assets/images/aboutus-screenshot.png)
 
 - _Sign up section_
 
   - This section will allow the user to sign up for Art Class to begin a new journey in the world of art.
     The user will be asked to provide not only their first and last name but also their email address.
   
-
+     ![Sign up screenshot](/assets/images/signup-screenshot.png)
 
 
 - _The Footer_
 
   - The footer consists of the "Contact us" section, where the user will find not only the phone number and the school's address, but also the links to social media.
   
-
+   ![Footer screenshot](/assets/images/footer-screenshot.png)
 
   ### Features Left to Implement
 
@@ -57,6 +58,12 @@ The site aims to provide users with an onverview of artistic activities, operati
    
 
    ## Testing
+
+     - I have confirmed that the form works:
+       - requires entries in every field
+       - it will only accept an email in the email field
+       - the "submit" button works
+       - the "clear form" button works
 
 
    ### Validator Testing
@@ -68,6 +75,8 @@ The site aims to provide users with an onverview of artistic activities, operati
         - No erros were returned when passing the official ()
 
    ### Unfixed Bugs
+
+      - No unfixed bugs
 
 
    ## Deployment
@@ -88,6 +97,7 @@ The site aims to provide users with an onverview of artistic activities, operati
 
    ### Content
        
+       - The code to make the Navigation bar was taken from the CI Love Running Project.
        - The menu icon, the Sign and the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
