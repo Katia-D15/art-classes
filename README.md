@@ -74,6 +74,12 @@ The site aims to provide users with an onverview of artistic activities, operati
       - CSS
         - No erros were returned when passing the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatia-d15.github.io%2Fart-classes%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR)
 
+
+      - Accessibility
+        -I confirmed that the colors and fonts choosen are easy to read and accesible by the Lighthouse in devtools
+
+        ![Lighthouse screenshot](/assets/images/main-screenshot.png)
+
    ### Unfixed Bugs
 
       - No unfixed bugs
