@@ -24,15 +24,13 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     letter-spacing: 2px;
-    margin-left: 35px;
-    
+    margin-left: 35px; 
 }
 
 h2{
     text-align: center;
     padding: 20px;
 }
-
 
 
 /*Header*/
@@ -62,7 +60,6 @@ header a {
 
 #menu>li {
     margin-bottom: 1em;
-
 }
 
 .active {
@@ -79,7 +76,6 @@ nav {
     box-shadow: 0 2px 2px #586f7c;
     display: none;
     top: 100%;
-
 }
 
 /* Nav toggle*/
@@ -94,7 +90,6 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-
 
 
 /*Main*/
@@ -113,7 +108,6 @@ main {
     height: 400px;
     width: 100%;
     background: url(../images/hero-image.jpeg) no-repeat center center/cover;
-
 }
 
 /*Main Title*/
@@ -123,20 +117,16 @@ main {
 }
 
 /*About us*/
-
 #aboutus{
     background-color: #f5d4d4;
     height: auto;
     width:100%;
     bottom: 0;
     padding: 25px;
-    
-    
 }
 
 #aboutus >p{
     text-align: center;
-    
 }
 
 #activity-table{
@@ -144,8 +134,7 @@ main {
     text-align: center;
     overflow: auto;
     max-width: 402px;
-    margin: auto;
-    
+    margin: auto;  
 }
 
 #activity-table > th, td{
@@ -182,7 +171,6 @@ main {
     padding: 45px;
     margin: 40px;
     margin-bottom: 5%;
-    
 }
 
 #signup-form > h2{
@@ -199,15 +187,11 @@ main {
     border:1px solid #fafafa;
     border-radius: 2px;
     padding: 0 5px;
-
 }
 
 #reset_button{
     margin-right: 10px;
 }
-
-
-
 
 
 /*Footer*/
@@ -243,7 +227,6 @@ footer {
 
 /*Media query: tablets and larger(768px and up)*/
 @media screen and (min-width:768px) {
-
 
     /*Header*/
     nav {
@@ -283,19 +266,15 @@ footer {
         height: 520px;
         width: 100%;
         background: url(../images/hero-image.jpeg) no-repeat center center/cover;
-
     }
 
     
-
     #aboutus{
         background-color: #f5d4d4;
         height: auto;
         width:100%;
         bottom: 0;
-        padding: 10%;
-        
-        
+        padding: 10%; 
     }
 
 
@@ -310,10 +289,7 @@ footer {
     }
     
 
- 
-
     /*Signup*/
-
     #signup-form{
         color: #000000;
         background-color: rgb(212, 126, 144,0.9);
@@ -322,39 +298,28 @@ footer {
         max-width: 45%;
         margin: auto;
         margin-bottom: 5%;
-        
     }
-
   
 }
 
 /*Media query: laptops and larger(992px and up)*/
 @media screen and (min-width:992px) {
 
-   
-
     #menu a:hover {
         border-bottom: 1px solid #000000;
-
     }
-
 
     #hero {
         height: 520px;
         width: 100%;
         background: url(../images/hero-image.jpeg) no-repeat center center/cover;
-
     }
-
-
-
 
     #aboutus{
         background-color: #f5d4d4;
         width:100%;
         bottom: 0;
         padding: 10%;
-        
     }
 
     #contact {
@@ -371,34 +336,26 @@ footer {
         max-width: 30%;
         margin: auto;
         margin-bottom: 5%;
-        
     }
-
-
-   
 
 }
 
+
 /*Media query: Desktops and larger(1200px and up)*/
 @media screen and (min-width:1200px) {
-
-
 
     #hero {
         height: 415px;
         width: 40%;
         background: url(../images/hero-image.jpeg) no-repeat center center/cover;
-
     }
 
 
     /*Main Title*/
-
     .main-title{
         position:absolute;
         right: 400px;
         margin: 10px;
-
     }   
     
     
@@ -408,15 +365,13 @@ footer {
         position:absolute;
         left:50%;
         top:30%;
-
     } 
 
     #aboutus{
         background-color: #f5d4d4;
         width:100%;
         bottom: 0;
-        padding: 5%;
-        
+        padding: 5%; 
     }
 
     #contact {
@@ -433,9 +388,6 @@ footer {
         max-width: 20%;
         margin: auto;
         margin-bottom: 5%;
-        
     }
-
-
 
 }
