@@ -78,7 +78,7 @@ The site aims to provide users with an onverview of artistic activities, operati
       - Accessibility
         -I confirmed that the colors and fonts choosen are easy to read and accesible by the Lighthouse in devtools
 
-        ![Lighthouse screenshot](/assets/images/main-screenshot.png)
+        ![Lighthouse screenshot](/assets/images/lighthouse-screenshot.png)
 
    ### Unfixed Bugs
 
