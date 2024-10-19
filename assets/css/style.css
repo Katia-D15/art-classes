@@ -157,19 +157,17 @@ main {
 }
 
 /* Sign up*/
-#sigup{
-    background-color: #ffffff;
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+#signup{
+    background-color: #AAB7B8;
+    height: 850px;
+    padding: 10%;
+
 }
 
 #signup-form{
     color: #000000;
     background-color: rgb(212, 126, 144,0.9);
     padding: 45px;
-    margin: 40px;
     margin-bottom: 5%;
 }
 
@@ -295,7 +293,7 @@ footer {
         background-color: rgb(212, 126, 144,0.9);
         padding: 45px;
         margin: 40px;
-        max-width: 45%;
+        max-width: 55%;
         margin: auto;
         margin-bottom: 5%;
     }
@@ -333,7 +331,7 @@ footer {
         color: #000000;
         background-color: rgb(212, 126, 144,0.9);
         padding: 45px;
-        max-width: 30%;
+        max-width: 45%;
         margin: auto;
         margin-bottom: 5%;
     }
@@ -385,7 +383,7 @@ footer {
         color: #000000;
         background-color: rgb(212, 126, 144,0.9);
         padding: 45px;
-        max-width: 20%;
+        max-width: 30%;
         margin: auto;
         margin-bottom: 5%;
     }
