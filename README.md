@@ -50,7 +50,7 @@ The site aims to provide users with an onverview of artistic activities, operati
 
   - The footer consists of the "Contact us" section, where the user will find not only the phone number and the school's address, but also the links to social media.
   
-   ![Footer screenshot](/assets/images/footer-screenshot.png)
+      ![Footer screenshot](/assets/images/footer-screenshot.png)
 
   ### Features Left to Implement
 
